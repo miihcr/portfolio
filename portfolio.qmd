@@ -29,12 +29,12 @@ This study investigated how social factors influence pro-environmental behaviour
 [<i class="bi bi-github"></i> Code](https://github.com/miihcr/Statistical_Consulting_Project_13){.project-link}
 :::
 
----
+------------------------------------------------------------------------
 
-::: {.project-card}
+::: project-card
 ### Expanding the Job Demands-Resources Model: The Integrated Work Dynamics Model {.project-title}
 
-**Bachelor's Thesis** · Maastricht University · 2024 
+**Bachelor's Thesis** · Maastricht University · 2024
 
 This literature review introduces the Integrated Work Dynamics (IWD) model, extending the Job Demands-Resources (JD-R) model to better capture the complexities of modern work-life dynamics. Central to the IWD model is the conceptualisation of personality traits as personal demands, offering a new perspective on individual-environment interaction. The review integrates findings from existing literature to identify strategies for tailoring work environments to diverse employee needs, with implications for both theory and practice.
 

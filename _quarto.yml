@@ -22,7 +22,5 @@ format:
       - brand
     css: styles.css
     toc: false
-    page-layout: full
-
 editor: visual
 

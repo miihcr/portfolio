@@ -1,7 +1,45 @@
 /* css styles */
 
+/* ── Consistent layout ── */
 
-/* Social links: icons only */
+.navbar > .container,
+.navbar > .container-fluid {
+  max-width: 950px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+#quarto-content main.content,
+#quarto-content .quarto-about-trestles {
+  max-width: 950px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+/* ── Navbar styling ── */
+
+.navbar-brand {
+  font-size: 1.8rem !important;
+  font-weight: 500 !important;
+}
+
+.navbar .nav-link:hover,
+.navbar .nav-link:focus-visible {
+  color: #A85E4A !important;
+}
+
+.navbar-brand:hover {
+  color: #A85E4A !important;
+}
+
+/* ── About page (trestles template) ── */
+
 .about-link {
   border: none !important;
   background: transparent !important;
@@ -10,78 +48,73 @@
   color: #2D5A3D !important;
 }
 
-/* Hide the text */
 .about-link-text {
   display: none;
 }
 
-/* Make icons slightly larger */
 .about-link i {
   font-size: 1.5rem;
 }
 
-/* Hover colour */
 .about-link:hover {
   color: #A85E4A !important;
 }
 
-/* Navbar links: terracotta only on hover */
-.navbar .nav-link:hover,
-.navbar .nav-link:focus-visible {
-  color: #A85E4A !important;
-}
+/* ── Page titles ── */
 
-/* Website title: terracotta on hover */
-.navbar-brand:hover {
-  color: #A85E4A !important;
-}
-
-/* Centre the About page content */
-.quarto-about-trestles {
-  max-width: 950px;
-  width: 100%;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-/* Centre navbar content in a narrower area */
-.navbar > .container,
-.navbar > .container-fluid {
-  max-width: 950px;
-  width: 100%;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-/* Make the website name larger */
-.navbar-brand {
-  font-size: 1.8rem !important;
-  font-weight: 500 !important;
-}
-
-/* Move the name to the left on desktop */
-@media (min-width: 992px) {
-  .navbar-brand {
-    position: relative;
-    left: -65px;
-  }
-}
-
-/* Make page titles slightly smaller */
 #title-block-header h1.title {
   font-size: 1.65rem !important;
   font-weight: 600 !important;
 }
 
-@media (min-width: 992px) {
-  .navbar-brand {
-    margin-left: 100px !important;
+/* ── CV / Experience page ── */
+
+.cv-entry {
+  padding: 0.8rem 0 0.8rem 1rem;
+  margin-bottom: 1rem;
+  border-left: 3px solid #E5EDE5;
+}
+
+.cv-date {
+  float: right;
+  font-style: italic;
+  color: #666;
+}
+
+@media (max-width: 600px) {
+  .cv-date {
+    float: none;
+    display: block;
+    margin-bottom: 0.3rem;
   }
 }
 
-/* Move navbar title to the left */
-@media (min-width: 992px) {
-  .navbar-brand {
-    transform: translateX(-140px);
-  }
+/* ── Portfolio page ── */
+
+.project-card {
+  padding: 1.5rem 0;
+}
+
+.project-title {
+  color: #2D5A3D !important;
+  margin-bottom: 0.3rem;
+}
+
+.project-link {
+  display: inline-block;
+  padding: 0.3rem 0.8rem;
+  border: 1px solid #2D5A3D;
+  border-radius: 20px;
+  color: #2D5A3D;
+  text-decoration: none;
+  font-size: 0.9rem;
+  margin-right: 0.4rem;
+  margin-top: 0.5rem;
+  transition: background-color 0.2s, color 0.2s;
+}
+
+.project-link:hover {
+  background-color: #2D5A3D;
+  color: white;
+  text-decoration: none;
 }
