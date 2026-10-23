@@ -78,3 +78,10 @@
     margin-left: 100px !important;
   }
 }
+
+/* Move navbar title to the left */
+@media (min-width: 992px) {
+  .navbar-brand {
+    transform: translateX(-140px);
+  }
+}
