@@ -1,146 +1,31 @@
-/* css styles */
-
 /* ── Consistent layout ── */
 
+:root {
+  --site-width: 950px;
+}
+
+/* Navbar: same position on every page */
 .navbar > .container,
 .navbar > .container-fluid {
-  max-width: 950px;
+  max-width: var(--site-width) !important;
   width: 100%;
   margin-left: auto;
   margin-right: auto;
   padding-left: 1rem;
   padding-right: 1rem;
+  box-sizing: border-box;
 }
 
-/* Override Quarto's page-columns grid so TOC doesn't squeeze content */
-#quarto-content.page-columns {
-  display: block !important;
-  max-width: 950px;
+/* Main content: same width and alignment on every page */
+#quarto-content.page-columns > main.content,
+#quarto-content.page-columns > .quarto-about-trestles {
+  grid-column: 1 / -1 !important;
+  max-width: var(--site-width) !important;
   width: 100%;
+  min-width: 0;
   margin-left: auto;
   margin-right: auto;
   padding-left: 1rem;
   padding-right: 1rem;
-  position: relative;
-}
-
-/* All page content: same width as navbar */
-#quarto-content main.content,
-#quarto-content .quarto-about-trestles {
-  max-width: 100%;
-  width: 100%;
-}
-
-/* TOC: float in right margin, outside the content flow */
-#quarto-margin-sidebar {
-  position: fixed;
-  top: 80px;
-  right: calc((100vw - 950px) / 2 - 200px);
-  width: 180px;
-  font-size: 0.85rem;
-  z-index: 10;
-}
-
-/* Hide TOC on screens too narrow for the margin */
-@media (max-width: 1250px) {
-  #quarto-margin-sidebar {
-    display: none !important;
-  }
-}
-
-/* ── Navbar styling ── */
-
-.navbar-brand {
-  font-size: 1.8rem !important;
-  font-weight: 500 !important;
-}
-
-.navbar .nav-link:hover,
-.navbar .nav-link:focus-visible {
-  color: #A85E4A !important;
-}
-
-.navbar-brand:hover {
-  color: #A85E4A !important;
-}
-
-/* ── About page (trestles template) ── */
-
-.about-link {
-  border: none !important;
-  background: transparent !important;
-  box-shadow: none !important;
-  padding: 0.4rem !important;
-  color: #2D5A3D !important;
-}
-
-.about-link-text {
-  display: none;
-}
-
-.about-link i {
-  font-size: 1.5rem;
-}
-
-.about-link:hover {
-  color: #A85E4A !important;
-}
-
-/* ── Page titles ── */
-
-#title-block-header h1.title {
-  font-size: 1.65rem !important;
-  font-weight: 600 !important;
-}
-
-/* ── CV / Experience page ── */
-
-.cv-entry {
-  padding: 0.8rem 0 0.8rem 1rem;
-  margin-bottom: 1rem;
-  border-left: 3px solid #E5EDE5;
-}
-
-.cv-date {
-  float: right;
-  font-style: italic;
-  color: #666;
-}
-
-@media (max-width: 600px) {
-  .cv-date {
-    float: none;
-    display: block;
-    margin-bottom: 0.3rem;
-  }
-}
-
-/* ── Portfolio page ── */
-
-.project-card {
-  padding: 1.5rem 0;
-}
-
-.project-title {
-  color: #2D5A3D !important;
-  margin-bottom: 0.3rem;
-}
-
-.project-link {
-  display: inline-block;
-  padding: 0.3rem 0.8rem;
-  border: 1px solid #2D5A3D;
-  border-radius: 20px;
-  color: #2D5A3D;
-  text-decoration: none;
-  font-size: 0.9rem;
-  margin-right: 0.4rem;
-  margin-top: 0.5rem;
-  transition: background-color 0.2s, color 0.2s;
-}
-
-.project-link:hover {
-  background-color: #2D5A3D;
-  color: white;
-  text-decoration: none;
+  box-sizing: border-box;
 }
