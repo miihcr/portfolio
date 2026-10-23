@@ -1,7 +1,24 @@
 ---
-title: "portfolio"
+title: ""
+image: images/profile_photo.png
+toc: false
+about:
+  template: trestles 
+  image-shape: round
+  image-width: 17em
+  links:
+     - icon: linkedin
+       href: https://www.linkedin.com/in/milena--costa/
+     - icon: github
+       href: https://github.com/miihcr
+     - icon: envelope-fill
+       href: mailto:milenacostaramos@gmail.com
 ---
 
-This is a Quarto website.
+Hi! I'm Milena. I am originally from Brazil, spent a couple of years in Belgium, and have called the Netherlands home for the past five years.
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+Studying psychology taught me to see behaviour as shaped by both individual characteristics and the social contexts in which people live. I also discovered a passion for the quantitative side of research, especially the challenge of measuring things that aren’t directly observable, like well-being or social relationships. With a master’s in Statistics and Data Science, I am ready to apply quantitative methods to answer questions about how social contexts shape people’s lives.
+
+I enjoy asking questions, finding patterns, and questioning what those patterns actually mean in our daily lives. Outside of research, I’m not particularly good at small talk and much prefer deep, meaningful conversations. I love learning languages, exploring different perspectives, and going down rabbit holes about whatever has caught my attention lately. I’m also a plant parent and, whenever I get the chance, a scuba diver.
+
+

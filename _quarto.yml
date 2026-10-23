@@ -3,20 +3,22 @@ project:
   output-dir: docs
 
 website:
-  title: "portfolio"
+  title: "Milena Costa"
+  search: false 
   navbar:
-    left:
+    right:
       - href: index.qmd
         text: Home
       - about.qmd
+      - portfolio.qmd
 
 format:
   html:
     theme:
-      - cosmo
+      - lumen
       - brand
     css: styles.css
-    toc: true
+    toc: false
 
 editor: visual
 

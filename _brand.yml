@@ -1,0 +1,11 @@
+color:
+  palette:
+    forest: "#2D5A3D"
+    clay: "#A85E4A"
+    sage: "#E5EDE5"
+    cream: "#FAF9F6"
+
+  primary: "#2D5A3D"
+  secondary: "#A85E4A"
+  background: "#FAF9F6"
+  foreground: "#333630"
