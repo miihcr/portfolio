@@ -47,8 +47,34 @@
 /* Centre navbar content in a narrower area */
 .navbar > .container,
 .navbar > .container-fluid {
-  max-width: 850px;
+  max-width: 950px;
   width: 100%;
   margin-left: auto;
   margin-right: auto;
+}
+
+/* Make the website name larger */
+.navbar-brand {
+  font-size: 1.8rem !important;
+  font-weight: 500 !important;
+}
+
+/* Move the name to the left on desktop */
+@media (min-width: 992px) {
+  .navbar-brand {
+    position: relative;
+    left: -65px;
+  }
+}
+
+/* Make page titles slightly smaller */
+#title-block-header h1.title {
+  font-size: 1.65rem !important;
+  font-weight: 600 !important;
+}
+
+@media (min-width: 992px) {
+  .navbar-brand {
+    margin-left: 100px !important;
+  }
 }

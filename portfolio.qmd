@@ -1,3 +1,42 @@
 ---
 title: "Portfolio"
+toc: false
 ---
+
+A selection of research and academic projects from my BSc in Psychology and MSc in Statistics & Data Science.
+
+------------------------------------------------------------------------
+
+::: project-card
+### The Contexts That Bind Us: Networks, Multiplexity, and Embeddedness in Institutional Domains {.project-title}
+
+**Master's Thesis** · Leiden University & CBS (Statistics Netherlands) · 2026
+
+This thesis examines how the organisation of social ties across institutional domains relates to generalised trust in the Netherlands. Using the CBS Person Network, a whole-population multilayer network covering approximately 17 million Dutch residents across five institutional domains (family, household, neighbourhood, workplace, and education), I developed two individual-level dimensions of cross-domain embeddedness. *Multiplexity* (whether the same people recur across domains) and *participation evenness* (how evenly a person's ties are distributed across domains). A key measurement contribution was an adjusted multiplexity measure that accounts for administrative overlap between family and household registers. Person-level measures were linked to the Social Cohesion and Well-being Survey (2020--2023, *N* = 28,483) to examine their association with generalised trust.
+
+[<i class="bi bi-file-earmark-text"></i> Thesis](https://doi.org/10.5281/zenodo.22311518){.project-link}
+:::
+
+------------------------------------------------------------------------
+
+::: project-card
+### Social Factors Influencing Children's Pro-Environmental Behaviour {.project-title}
+
+**Statistical Consulting Project** · Leiden University · 2024
+
+This study investigated how social factors influence pro-environmental behaviour (PEB) in children and adolescents aged 9 to 15 years. Participants (*N* = 164) from 13 classrooms across two schools completed an effort-based choice task across self, climate, and prosocial targets. We used generalized linear mixed-effects models to examine whether experimentally manipulated social norm messages affect effortful pro-environmental behaviour, and whether individual social susceptibility and classroom cohesion moderated these effects.
+
+[<i class="bi bi-github"></i> Code](https://github.com/miihcr/Statistical_Consulting_Project_13){.project-link}
+:::
+
+---
+
+::: {.project-card}
+### Expanding the Job Demands-Resources Model: The Integrated Work Dynamics Model {.project-title}
+
+**Bachelor's Thesis** · Maastricht University · 2024 
+
+This literature review introduces the Integrated Work Dynamics (IWD) model, extending the Job Demands-Resources (JD-R) model to better capture the complexities of modern work-life dynamics. Central to the IWD model is the conceptualisation of personality traits as personal demands, offering a new perspective on individual-environment interaction. The review integrates findings from existing literature to identify strategies for tailoring work environments to diverse employee needs, with implications for both theory and practice.
+
+[<i class="bi bi-file-earmark-text"></i> Thesis](https://doi.org/10.5281/zenodo.22311324){.project-link}
+:::

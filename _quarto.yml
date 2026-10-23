@@ -9,9 +9,11 @@ website:
   navbar:
     right:
       - href: index.qmd
-        text: Home
-      - about.qmd
-      - portfolio.qmd
+        text: About me
+      - href: portfolio.qmd
+        text: Portfolio
+      - href: cv.qmd
+        text: Experience
 
 format:
   html:
@@ -20,6 +22,7 @@ format:
       - brand
     css: styles.css
     toc: false
+    page-layout: full
 
 editor: visual
 
