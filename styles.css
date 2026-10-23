@@ -12,14 +12,40 @@
   padding-right: 1rem;
 }
 
-#quarto-content main.content,
-#quarto-content .quarto-about-trestles {
+/* Override Quarto's page-columns grid so TOC doesn't squeeze content */
+#quarto-content.page-columns {
+  display: block !important;
   max-width: 950px;
   width: 100%;
   margin-left: auto;
   margin-right: auto;
   padding-left: 1rem;
   padding-right: 1rem;
+  position: relative;
+}
+
+/* All page content: same width as navbar */
+#quarto-content main.content,
+#quarto-content .quarto-about-trestles {
+  max-width: 100%;
+  width: 100%;
+}
+
+/* TOC: float in right margin, outside the content flow */
+#quarto-margin-sidebar {
+  position: fixed;
+  top: 80px;
+  right: calc((100vw - 950px) / 2 - 200px);
+  width: 180px;
+  font-size: 0.85rem;
+  z-index: 10;
+}
+
+/* Hide TOC on screens too narrow for the margin */
+@media (max-width: 1250px) {
+  #quarto-margin-sidebar {
+    display: none !important;
+  }
 }
 
 /* ── Navbar styling ── */
