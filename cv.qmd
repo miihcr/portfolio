@@ -3,7 +3,9 @@ title: "CV"
 toc: false
 ---
 
-:::::::::::: cv-header
+[<i class="bi bi-download"></i> Download PDF](Milena_Costa_CV.pdf){.project-link}
+
+::::::::::::: cv-header
 My background combines psychology with statistics and data science. I'm interested in using quantitative methods to understand social and behavioural phenomena, including how social contexts shape people's lives. My methodological interests include psychometrics, structural equation modelling, Bayesian methods, multilevel modelling, and network analysis.
 
 ## Education
@@ -13,13 +15,13 @@ My background combines psychology with statistics and data science. I'm interest
 
 **Specialisation:** European Master in Official Statistics ([EMOS](https://ec.europa.eu/eurostat/web/european-statistical-system/programmes-and-activities/education-and-training/european-master-official-statistics))
 
-**Thesis:** *The Contexts That Bind Us: Networks, Multiplexity, and Embeddedness in Institutional Domains* (grade 8.0)
+[<i class="bi bi-file-earmark-text"></i> **Thesis:**](https://doi.org/10.5281/zenodo.22311518){.project-link} *The Contexts That Bind Us: Networks, Multiplexity, and Embeddedness in Institutional Domains* (grade 8.0)
 :::
 
 ::: cv-entry
 **BSc Psychology** — Maastricht University, [2021–2024]{.cv-date}
 
-**Thesis:** *Expanding the Job Demands-Resources Model: The Work Dynamics Model* (grade 8.5)
+[<i class="bi bi-file-earmark-text"></i> **Thesis:**](https://doi.org/10.5281/zenodo.22311324){.project-link} *Expanding the Job Demands-Resources Model: The Work Dynamics Model* (grade 8.5)
 :::
 
 ## Research Experience
@@ -27,26 +29,26 @@ My background combines psychology with statistics and data science. I'm interest
 ::: cv-entry
 **Master's Thesis Intern** — Statistics Netherlands (CBS), [2026]{.cv-date}
 
-- Developed measures of institutional embeddedness using nationwide administrative network data covering approximately 17 million residents, examining social connections across family, household, neighbourhood, workplace, and education domains.
-- Linked population network measures with survey data to investigate how network characteristics, including institutional breadth, participation evenness, and multiplexity, relate to generalised trust.
-- Processed large-scale register data in R using `data.table`, `arrow`, and `DuckDB`, and conducted statistical analyses using regression models.
+- Developed an adjusted multiplexity measure to correct for administrative overlap between family and household registers, and linked a whole-population multilayer network (\~17 million Dutch residents) to survey data ($N$ = 28,483) to examine how the organisation of social ties across institutional domains relates to generalised trust.
+- Built a reproducible R pipeline using `data.table`, `arrow`, and `DuckDB` for large-scale network computation.
+- Currently collaborating on a CBS discussion paper based on the thesis and presenting the research at the ODISSEI Conference in November 2026.
 :::
 
 ::: cv-entry
 **Statistical Consulting Project** — Leiden University, [2024]{.cv-date}
 
-- Analysed children's pro-environmental behaviour using clustered classroom data, applying confirmatory factor analysis (CFA), multilevel generalised linear mixed models (GLMMs), and power analysis.
-- Evaluated methodological considerations related to clustered observations and measurement, using R and Git for reproducible analysis.
+- Applied multilevel GLMMs to assess how peer norms shaped children's pro-environmental effort choices in clustered classroom data (*N* = 164, 13 classrooms).
+- Developed a size-adjusted network density measure of classroom cohesion from peer-nomination data.
 :::
 
 ::: cv-entry
-**Research Practical** — Vrije Universiteit Amsterdam, [2023]{.cv-date}
+**Research Project** — Vrije Universiteit Amsterdam, [2023]{.cv-date}
 
 - Investigated the psychometric properties of the Self-Control Scale in workplace settings using reliability analysis, exploratory and confirmatory factor analysis, and multitrait-multimethod (MTMM) correlations.
 :::
 
 ::: cv-entry
-**Research Practical** — Maastricht University, [2023]{.cv-date}
+**Research Project** — Maastricht University, [2023]{.cv-date}
 
 - Designed and conducted a between-subjects experiment examining mental health stigma, including study design, power analysis, ethical approval, and participant recruitment.
 - Analysed experimental data using analysis of variance (ANOVA) and interpreted the findings in relation to the research hypotheses.
@@ -63,7 +65,7 @@ My background combines psychology with statistics and data science. I'm interest
 ::: cv-entry
 **Volunteer Coordinator** — Maastricht University, Studium Generale, [2022–2024]{.cv-date}
 
-- Coordinated more than 20 volunteers across three editions of the Pleasure, Art & Science Festival, managing volunteer communications, scheduling, and website support.
+- Coordinated more than 80 volunteers across three editions of the Pleasure, Art & Science Festival, managing volunteer communications, scheduling, and website support.
 :::
 
 ::: cv-entry
@@ -72,15 +74,21 @@ My background combines psychology with statistics and data science. I'm interest
 - Represented the Psychology programme at recruitment events, delivering presentations and answering questions from prospective students.
 :::
 
+::: cv-entry
+**Au Pair and Volunteer** — Antwerp, Belgium, [2019–2021]{.cv-date}
+
+- Childcare work; volunteered in elderly care and assisted at a COVID-19 vaccination centre.
+:::
+
 ## Technical Skills
 
 **Statistical modelling:** Generalised linear models, multilevel modelling, longitudinal modelling, structural equation modelling, Bayesian methods, and statistical learning.
 
-**Measurement and research methodology:** Psychometrics, factor analysis, survey methodology, causal inference, missing data methods, and experimental design.
+**Measurement and research methodology:** Psychometrics, factor analysis, item response theory (IRT), differential item functioning (DIF), survey methodology, causal inference, missing data methods, and experimental design.
 
 **Other quantitative methods:** Social network analysis, power analysis, and statistical simulation.
 
-**Programming and software:** R, Python, Git/GitHub, LaTeX, SPSS, Excel.
+**Programming and software:** R (e.g., lavaan, lme4, mirt, igraph, data.table, Shiny), Python, Git/GitHub, Quarto, LaTeX, SPSS, Excel.
 
 ## Languages
 
@@ -88,7 +96,7 @@ My background combines psychology with statistics and data science. I'm interest
 
 **English:** Fluent
 
-**Dutch:** B2+
+**Dutch:** B2+ (working toward C1)
 
-**Spanish:** Intermediate
-::::::::::::
+**Spanish:** B1
+:::::::::::::
