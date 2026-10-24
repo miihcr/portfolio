@@ -29,3 +29,48 @@
   padding-right: 1rem;
   box-sizing: border-box;
 }
+
+/* ── Social icons ── */
+
+.about-link {
+  border: none !important;
+  box-shadow: none !important;
+  background: transparent !important;
+  color: #2D5A3D !important;
+}
+
+.about-link i {
+  font-size: 1.8rem !important;
+}
+
+.about-link svg {
+  width: 1.8rem !important;
+  height: 1.8rem !important;
+}
+
+/* ── Hover effects ── */
+
+/* Social icons */
+.about-link:hover,
+.about-link:focus-visible {
+  color: #A85E4A !important;
+}
+
+/* Navbar menu: About me, Portfolio, CV */
+.navbar .nav-link:hover,
+.navbar .nav-link:focus-visible {
+  color: #A85E4A !important;
+}
+
+/* Website title: Milena Costa */
+.navbar-brand:hover,
+.navbar-brand:focus-visible {
+  color: #A85E4A !important;
+}
+
+/* Smooth colour transitions */
+.about-link,
+.navbar .nav-link,
+.navbar-brand {
+  transition: color 0.2s ease;
+}
