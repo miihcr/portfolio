@@ -13,7 +13,7 @@ website:
       - href: portfolio.qmd
         text: Portfolio
       - href: cv.qmd
-        text: Experience
+        text: CV
 
 format:
   html:
