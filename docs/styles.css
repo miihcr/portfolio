@@ -1,31 +1,32 @@
-/* ── Consistent layout ── */
+/* ── Social icons ── */
 
-:root {
-  --site-width: 950px;
+/* Remove borders and backgrounds */
+.about-link {
+  border: none !important;
+  background: transparent !important;
+  box-shadow: none !important;
+  padding: 0.5rem !important;
 }
 
-/* Navbar: same position on every page */
-.navbar > .container,
-.navbar > .container-fluid {
-  max-width: var(--site-width) !important;
-  width: 100%;
-  margin-left: auto;
-  margin-right: auto;
-  padding-left: 1rem;
-  padding-right: 1rem;
-  box-sizing: border-box;
+/* Make icons bigger */
+.about-link i,
+.about-link svg {
+  font-size: 1.8rem !important;
+  width: 1.8rem;
+  height: 1.8rem;
 }
 
-/* Main content: same width and alignment on every page */
-#quarto-content.page-columns > main.content,
-#quarto-content.page-columns > .quarto-about-trestles {
-  grid-column: 1 / -1 !important;
-  max-width: var(--site-width) !important;
-  width: 100%;
-  min-width: 0;
-  margin-left: auto;
-  margin-right: auto;
-  padding-left: 1rem;
-  padding-right: 1rem;
-  box-sizing: border-box;
+/* Hide text labels */
+.about-link-text {
+  display: none !important;
+}
+
+/* Icon colours */
+.about-link {
+  color: #2D5A3D !important;
+}
+
+/* Hover effect */
+.about-link:hover {
+  color: #A85E4A !important;
 }
