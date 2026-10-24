@@ -20,40 +20,16 @@ This thesis examines how the organisation of social ties across institutional do
 ------------------------------------------------------------------------
 
 ::: project-card
-### Social Factors Influencing Children's Pro-Environmental Behaviour {.project-title}
-
-**Statistical Consulting Project** · Leiden University · 2024
-
-This study investigated how social factors influence pro-environmental behaviour (PEB) in children and adolescents aged 9 to 15 years. Participants (*N* = 164) from 13 classrooms across two schools completed an effort-based choice task across self, climate, and prosocial targets. We used generalized linear mixed-effects models to examine whether experimentally manipulated social norm messages affect effortful pro-environmental behaviour, and whether individual social susceptibility and classroom cohesion moderated these effects.
-
-[<i class="bi bi-github"></i> Code](https://github.com/miihcr/Statistical_Consulting_Project_13){.project-link}
-:::
-
-------------------------------------------------------------------------
-
-::: project-card
-### Expanding the Job Demands-Resources Model: The Integrated Work Dynamics Model {.project-title}
-
-**Bachelor's Thesis** · Maastricht University · 2024
-
-This literature review introduces the Integrated Work Dynamics (IWD) model, extending the Job Demands-Resources (JD-R) model to better capture the complexities of modern work-life dynamics. Central to the IWD model is the conceptualisation of personality traits as personal demands, offering a new perspective on individual-environment interaction. The review integrates findings from existing literature to identify strategies for tailoring work environments to diverse employee needs, with implications for both theory and practice.
-
-[<i class="bi bi-file-earmark-text"></i> Thesis](https://doi.org/10.5281/zenodo.22311324){.project-link}
-:::
-
-
-::: project-card
 ### Immigration to Europe: An Interactive Dashboard {.project-title}
 
 **EMOS Presentation of Official Statistics** · Leiden University · 2025
 
 An interactive Shiny application that visualises immigration patterns across European countries using Eurostat data. The dashboard includes time-series views by country, choropleth maps of immigration counts, and maps showing immigration as a share of the national population. Data were sourced from the Eurostat migration (`migr_imm8`) and population (`demo_pjan`) databases, combined with NUTS-0 boundary files for spatial visualisation.
 
-[<i class="bi bi-globe"></i> Live app](https://ncdelo-milena-costa.shinyapps.io/eu-immigration-dashboard/){.project-link}
-[<i class="bi bi-github"></i> Code](https://github.com/miihcr/eu-immigration-dashboard){.project-link}
+[<i class="bi bi-globe"></i> Live app](https://ncdelo-milena-costa.shinyapps.io/eu-immigration-dashboard/){.project-link} [<i class="bi bi-github"></i> Code](https://github.com/miihcr/eu-immigration-dashboard){.project-link}
 :::
 
----
+------------------------------------------------------------------------
 
 ::: project-card
 ### Housing Price Statistics in Den Bosch {.project-title}
@@ -63,4 +39,16 @@ An interactive Shiny application that visualises immigration patterns across Eur
 This project implements a reproducible statistical production pipeline for computing average housing prices in Den Bosch. Using synthetic data from the Dutch buildings register and property sales records, the pipeline follows a five-stage workflow from raw data ingestion through preprocessing, validation, and statistical processing to final output. Each stage is modular and documented, reflecting the production system standards taught in the European Master in Official Statistics (EMOS) programme.
 
 [<i class="bi bi-github"></i> Code](https://github.com/miihcr/EMOS-production-systems){.project-link}
+:::
+
+------------------------------------------------------------------------
+
+::: project-card
+### Social Factors Influencing Children's Pro-Environmental Behaviour {.project-title}
+
+**Statistical Consulting Project** · Leiden University · 2024
+
+This study investigated how social factors influence pro-environmental behaviour (PEB) in children and adolescents aged 9 to 15 years. Participants (*N* = 164) from 13 classrooms across two schools completed an effort-based choice task across self, climate, and prosocial targets. We used generalized linear mixed-effects models to examine whether experimentally manipulated social norm messages affect effortful pro-environmental behaviour, and whether individual social susceptibility and classroom cohesion moderated these effects.
+
+[<i class="bi bi-github"></i> Code](https://github.com/miihcr/Statistical_Consulting_Project_13){.project-link}
 :::
