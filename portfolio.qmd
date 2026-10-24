@@ -49,7 +49,7 @@ This literature review introduces the Integrated Work Dynamics (IWD) model, exte
 
 An interactive Shiny application that visualises immigration patterns across European countries using Eurostat data. The dashboard includes time-series views by country, choropleth maps of immigration counts, and maps showing immigration as a share of the national population. Data were sourced from the Eurostat migration (`migr_imm8`) and population (`demo_pjan`) databases, combined with NUTS-0 boundary files for spatial visualisation.
 
-[<i class="bi bi-globe"></i> Live app](https://miihcr.shinyapps.io/eu-immigration-dashboard){.project-link}
+[<i class="bi bi-globe"></i> Live app](https://ncdelo-milena-costa.shinyapps.io/eu-immigration-dashboard/){.project-link}
 [<i class="bi bi-github"></i> Code](https://github.com/miihcr/eu-immigration-dashboard){.project-link}
 :::
 
