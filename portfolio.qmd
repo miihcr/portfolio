@@ -12,7 +12,7 @@ A selection of some of my research and academic projects.
 
 **Master's Thesis** · Leiden University & CBS (Statistics Netherlands) · 2026
 
-This thesis examines how the organisation of social ties across institutional domains relates to generalised trust in the Netherlands. Using the CBS Person Network, a whole-population multilayer network covering approximately 17 million Dutch residents across five institutional domains (family, household, neighbourhood, workplace, and education), I developed two individual-level dimensions of cross-domain embeddedness. **Multiplexity** captures whether the same individuals are connected across multiple domains, whereas **participation evenness** captures how evenly ties are distributed across domains. A key measurement contribution was an adjusted multiplexity measure that accounts for administrative overlap between family and household registers. Person-level measures were linked to the Social Cohesion and Well-being Survey (2020--2023, *N* = 28,483) to examine their association with generalised trust.
+How do our connections across family, work, education, and neighbourhoods relate to how much we trust other people? This thesis investigates that question using the CBS Person Network, a whole-population multilayer network covering approximately 17 million Dutch residents across five institutional domains (family, household, neighbourhood, workplace, and education). I developed two individual-level dimensions of cross-domain embeddedness. **Multiplexity** captures whether the same individuals are connected across multiple domains, whereas **participation evenness** captures how evenly ties are distributed across domains. A key measurement contribution was an adjusted multiplexity measure that accounts for administrative overlap between family and household registers. Person-level measures were linked to the Social Cohesion and Well-being Survey (2020--2023, *N* = 28,483) to examine their association with generalised trust.
 
 [<i class="bi bi-file-earmark-text"></i> Thesis](https://doi.org/10.5281/zenodo.22311518){.project-link} · [<i class="bi bi-journal-text"></i> Conference Abstract](https://virtual.oxfordabstracts.com/event/77642/submission/28){.project-link}
 :::
@@ -46,7 +46,7 @@ This project implements a reproducible statistical production pipeline for compu
 ::: project-card
 ### Social Factors Influencing Children's Pro-Environmental Behaviour {.project-title}
 
-**Statistical Consulting Project** · Leiden University · 2024
+**Statistical Consulting Project** · Leiden University · 2025
 
 This study investigated how social factors influence pro-environmental behaviour (PEB) in children and adolescents aged 9 to 15 years. Participants (*N* = 164) from 13 classrooms across two schools completed an effort-based choice task across self, climate, and prosocial targets. We used generalized linear mixed-effects models to examine whether experimentally manipulated social norm messages affect effortful pro-environmental behaviour, and whether individual social susceptibility and classroom cohesion moderated these effects.
 

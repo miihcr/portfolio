@@ -35,7 +35,7 @@ My background combines psychology with statistics and data science. I'm interest
 :::
 
 ::: cv-entry
-**Statistical Consulting Project** — Leiden University, [2024]{.cv-date}
+**Statistical Consulting Project** — Leiden University, [2025-2026]{.cv-date}
 
 - Applied multilevel GLMMs to assess how peer norms shaped children's pro-environmental effort choices in clustered classroom data (*N* = 164, 13 classrooms).
 - Developed a size-adjusted network density measure of classroom cohesion from peer-nomination data.
@@ -44,7 +44,7 @@ My background combines psychology with statistics and data science. I'm interest
 ::: cv-entry
 **Research Project** — Vrije Universiteit Amsterdam, [2023]{.cv-date}
 
-- Investigated the psychometric properties of the Self-Control Scale in workplace settings using reliability analysis, exploratory and confirmatory factor analysis, and multitrait-multimethod (MTMM) correlations.
+- Contextualised and evaluated a brief self-report measure of well-being for workplace settings, examining its factor structure, reliability, and construct validity.
 :::
 
 ::: cv-entry

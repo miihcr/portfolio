@@ -74,3 +74,19 @@
 .navbar-brand {
   transition: color 0.2s ease;
 }
+
+/* Hide the original title below the photo */
+.quarto-about-trestles #title-block-header {
+  display: none;
+}
+
+/* Reduce gap between heading and photo */
+.quarto-about-trestles {
+  margin-top: -1.5rem;
+}
+
+/* Move About me heading higher */
+#about-me > h1,
+h1#about-me {
+  margin-top: 0;
+}

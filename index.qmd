@@ -1,8 +1,9 @@
 ---
 title: ""
-image: images/profile_photo.png
 toc: false
+image: images/profile_photo.png
 about:
+  id: about-content
   template: trestles 
   image-shape: rounded
   image-width: 17em
@@ -14,11 +15,15 @@ about:
      - icon: envelope-fill
        href: mailto:milenacostaramos@gmail.com
 ---
+# About me
+::: {#about-content}
 
-Hi! I’m Milena, a **quantitative social scientist**. I grew up in Brazil and moved to Belgium when I was eighteen, where I spent two years as an au pair, learning Dutch at the KU Leuven. Watching children grow up in a different context than my own made me curious about how the environments we grow up in shape who we become. I have been in the Netherlands for five years now, and am currently based in Leiden.
+Hi! I’m Milena, a **quantitative social scientist**. I am looking to continue working in applied statistics, answering questions about how social contexts shape individual outcomes. My methodological interests include **measurement and psychometrics, multilevel and longitudinal modelling, Bayesian methods, and social network analysis.**
 
-Through a bachelor’s in Psychology at Maastricht University, I learned to think about behaviour in context. I also discovered a passion for the quantitative side of research, especially the challenge of measuring things that aren’t directly observable, like well-being or social relationships. A master’s in Statistics and Data Science gave me a stronger foundation in statistical modelling, research design, and working with complex data. For my master's thesis at Statistics Netherlands (CBS), I used a whole-population network of the Netherlands to investigate how people's embeddedness in different social domains, such as work, neighbourhood, and household, relates to generalised trust. I enjoy applying quantitative methods to answer relevant social questions, and questioning what the patterns I find actually mean in people’s daily lives.
+Through a bachelor’s in Psychology at Maastricht University, I learned to think about behaviour in context. I also found a passion for the quantitative side of research, especially the challenge of measuring things that aren’t directly observable, like well-being or trust. A master’s in Statistics and Data Science trained me in statistical modelling, measurement, and working with complex data. For my master's thesis at Statistics Netherlands (CBS), I worked with a whole-population network of the Netherlands to investigate how people's embeddedness within different social domains, such as work, neighbourhood, and household, relates to their willingness to trust others and strangers. I enjoy applying quantitative methods to answer relevant social questions, and questioning what the patterns I find actually mean in people’s daily lives.
 
-I am looking to continue working in applied statistics, answering questions about how social contexts shape individual outcomes. Methodologically, I am particularly interested in **measurement and psychometrics, multilevel and longitudinal modelling, and social network analysis.**
+I grew up in Brazil and moved to Belgium when I was eighteen, where I spent two years as an au pair, while learning Dutch at the KU Leuven. Watching children grow up in a different context than my own made me curious about how the environments we grow up in shape who we become. I am currently based in Leiden.
 
-Outside of research, you’ll find me taking care of my tropical plants and having deep discussions about the meaning of life. I love learning about new cultures, exploring different perspectives, watching art house films, and going down rabbit holes about whatever has caught my attention lately. Whenever I get the chance, I also like to scuba dive.
+In my free time, you will find me taking care of my tropical plants, working in the garden, and having deep discussions about the meaning of life. I love learning about new cultures, reading about different perspectives, watching art house films, and going down rabbit holes about whatever has caught my attention lately. Whenever I get the chance, I also like to scuba dive.
+
+:::
