@@ -15,7 +15,9 @@ about:
      - icon: envelope-fill
        href: mailto:milenacostaramos@gmail.com
 ---
+
 # About me
+
 ::: {#about-content}
 
 Hi! I’m Milena, a **quantitative social scientist**. I am looking to continue working in applied statistics, answering questions about how social contexts shape individual outcomes. My methodological interests include **measurement and psychometrics, multilevel and longitudinal modelling, Bayesian methods, and social network analysis.**
@@ -25,5 +27,5 @@ Through a bachelor’s in Psychology at Maastricht University, I learned to thin
 I grew up in Brazil and moved to Belgium when I was eighteen, where I spent two years as an au pair, while learning Dutch at the KU Leuven. Watching children grow up in a different context than my own made me curious about how the environments we grow up in shape who we become. I am currently based in Leiden.
 
 In my free time, you will find me taking care of my tropical plants, working in the garden, and having deep discussions about the meaning of life. I love learning about new cultures, reading about different perspectives, watching art house films, and going down rabbit holes about whatever has caught my attention lately. Whenever I get the chance, I also like to scuba dive.
-
 :::
+

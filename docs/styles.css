@@ -1,34 +1,38 @@
 /* ── Consistent layout ── */
 
 :root {
-  --site-width: 950px;
+  --site-width: 900px;
+  --site-padding: 3.5rem;
 }
 
-/* Navbar: same position on every page */
+/* Navbar centered */
 .navbar > .container,
 .navbar > .container-fluid {
   max-width: var(--site-width) !important;
   width: 100%;
   margin-left: auto;
   margin-right: auto;
-  padding-left: 1rem;
-  padding-right: 1rem;
+  padding-left: var(--site-padding);
+  padding-right: var(--site-padding);
   box-sizing: border-box;
 }
 
-/* Main content: same width and alignment on every page */
-#quarto-content.page-columns > main.content,
-#quarto-content.page-columns > .quarto-about-trestles {
-  grid-column: 1 / -1 !important;
+/* All page content in a centered column */
+#quarto-content {
+  display: block !important;
   max-width: var(--site-width) !important;
-  width: 100%;
-  min-width: 0;
-  margin-left: auto;
-  margin-right: auto;
-  padding-left: 1rem;
-  padding-right: 1rem;
-  box-sizing: border-box;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  padding-left: var(--site-padding);
+  padding-right: var(--site-padding);
 }
+
+
+.navbar-brand {
+  font-size: 1.6rem !important;
+  font-weight: 400;
+}
+
 
 /* ── Social icons ── */
 
@@ -36,7 +40,8 @@
   border: none !important;
   box-shadow: none !important;
   background: transparent !important;
-  color: #2D5A3D !important;
+  color: 
+#2D5A3D !important;
 }
 
 .about-link i {
@@ -53,19 +58,22 @@
 /* Social icons */
 .about-link:hover,
 .about-link:focus-visible {
-  color: #A85E4A !important;
+  color: 
+#A85E4A !important;
 }
 
 /* Navbar menu: About me, Portfolio, CV */
 .navbar .nav-link:hover,
 .navbar .nav-link:focus-visible {
-  color: #A85E4A !important;
+  color: 
+#A85E4A !important;
 }
 
 /* Website title: Milena Costa */
 .navbar-brand:hover,
 .navbar-brand:focus-visible {
-  color: #A85E4A !important;
+  color: 
+#A85E4A !important;
 }
 
 /* Smooth colour transitions */
@@ -75,10 +83,6 @@
   transition: color 0.2s ease;
 }
 
-/* Hide the original title below the photo */
-.quarto-about-trestles #title-block-header {
-  display: none;
-}
 
 /* Reduce gap between heading and photo */
 .quarto-about-trestles {
@@ -90,3 +94,4 @@
 h1#about-me {
   margin-top: 0;
 }
+
