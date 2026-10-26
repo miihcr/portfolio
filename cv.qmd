@@ -6,7 +6,7 @@ toc: false
 [<i class="bi bi-download"></i> Download PDF](Milena_Costa_CV.pdf){.project-link}
 
 ::::::::::::: cv-header
-My background combines psychology with statistics and data science. I'm interested in using quantitative methods to understand social and behavioural phenomena, including how social contexts shape people's lives. My methodological interests include psychometrics, structural equation modelling, Bayesian methods, multilevel modelling, and network analysis.
+Quantitative researcher working at the intersection of behavioural science and administrative data. Methodological interests include psychometrics, multilevel modelling, population-scale social network analysis, and causal inference from observational data.
 
 ## Education
 
@@ -29,9 +29,10 @@ My background combines psychology with statistics and data science. I'm interest
 ::: cv-entry
 **Master's Thesis Intern** — Statistics Netherlands (CBS), [2026]{.cv-date}
 
-- Developed an adjusted multiplexity measure to correct for administrative overlap between family and household registers, and linked a whole-population multilayer network (\~17 million Dutch residents) to survey data ($N$ = 28,483) to examine how the organisation of social ties across institutional domains relates to generalised trust.
+- Processed linked administrative register data across five institutional domains (work, education, household, family, and neighbourhood) within the CBS microdata environment, covering approximately 17 million Dutch residents.
+- Developed an adjusted multiplexity measure to account for administrative overlap between family and household registers, and linked the population-scale multilayer network to survey data ($N$ = 28,483) to investigate how the organisation of social ties across domains relates to generalised trust.
 - Built a reproducible R pipeline using `data.table`, `arrow`, and `DuckDB` for large-scale network computation.
-- Currently collaborating on a CBS discussion paper based on the thesis and presenting the research at the ODISSEI Conference in November 2026.
+- Collaborating on a CBS discussion paper based on the thesis, with a research presentation scheduled for the ODISSEI Conference in November 2026.
 :::
 
 ::: cv-entry
