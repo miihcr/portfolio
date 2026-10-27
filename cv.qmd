@@ -6,7 +6,7 @@ toc: false
 [<i class="bi bi-download"></i> Download PDF](Milena_Costa_CV.pdf){.project-link}
 
 ::::::::::::: cv-header
-Quantitative researcher working at the intersection of behavioural science and administrative data. Methodological interests include psychometrics, multilevel modelling, population-scale social network analysis, and causal inference from observational data.
+Quantitative researcher working at the intersection of behavioural science and administrative data.
 
 ## Education
 
@@ -51,8 +51,8 @@ Quantitative researcher working at the intersection of behavioural science and a
 ::: cv-entry
 **Research Project** — Maastricht University, [2023]{.cv-date}
 
-- Designed and conducted a between-subjects experiment examining mental health stigma, including study design, power analysis, ethical approval, and participant recruitment.
-- Analysed experimental data using analysis of variance (ANOVA) and interpreted the findings in relation to the research hypotheses.
+- Designed and conducted a between-subjects experiment on mental-health stigma, including power analysis, ethical approval, and participant recruitment.
+- Exploratory analyses indicated lower stigma following a written narrative and lower anger following a video condition.
 :::
 
 ## Professional Experience

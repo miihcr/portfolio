@@ -58,6 +58,35 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <link rel="stylesheet" href="styles.css">
 </head>
@@ -133,7 +162,7 @@ ul.task-list li input[type="checkbox"] {
 <section id="the-contexts-that-bind-us-networks-multiplexity-and-embeddedness-in-institutional-domains" class="level3 project-title project-card">
 <h3 class="project-title anchored" data-anchor-id="the-contexts-that-bind-us-networks-multiplexity-and-embeddedness-in-institutional-domains">The Contexts That Bind Us: Networks, Multiplexity, and Embeddedness in Institutional Domains</h3>
 <p><strong>Master’s Thesis</strong> · Leiden University &amp; CBS (Statistics Netherlands) · 2026</p>
-<p>How do our connections across family, work, education, and neighbourhoods relate to how much we trust other people? This thesis investigates that question using the CBS Person Network, a whole-population multilayer network covering approximately 17 million Dutch residents across five institutional domains (family, household, neighbourhood, workplace, and education). I developed two individual-level dimensions of cross-domain embeddedness. <strong>Multiplexity</strong> captures whether the same individuals are connected across multiple domains, whereas <strong>participation evenness</strong> captures how evenly ties are distributed across domains. A key measurement contribution was an adjusted multiplexity measure that accounts for administrative overlap between family and household registers. Person-level measures were linked to the Social Cohesion and Well-being Survey (2020–2023, <em>N</em> = 28,483) to examine their association with generalised trust.</p>
+<p>How do our connections across family, work, education, and neighbourhoods relate to how much we trust other people? Using the CBS Person Network, a whole-population multilayer network covering approximately 17 million Dutch residents, I developed two individual-level measures of cross-domain embeddedness: multiplexity (whether the same people are connected across multiple domains) and participation evenness (how evenly ties are distributed across domains). A key methodological contribution was an adjusted multiplexity measure that accounts for administrative overlap between family and household registers. These measures were linked to the Social Cohesion and Well-being Survey (2020–2023, <span class="math inline">\(N\)</span> = 28,483) to examine their association with generalised trust.</p>
 <p><a href="https://doi.org/10.5281/zenodo.22311518" class="project-link"><i class="bi bi-file-earmark-text"></i> Thesis</a> · <a href="https://virtual.oxfordabstracts.com/event/77642/submission/28" class="project-link"><i class="bi bi-journal-text"></i> Conference Abstract</a></p>
 </section>
 <hr>
@@ -154,7 +183,7 @@ ul.task-list li input[type="checkbox"] {
 <section id="social-factors-influencing-childrens-pro-environmental-behaviour" class="level3 project-title project-card">
 <h3 class="project-title anchored" data-anchor-id="social-factors-influencing-childrens-pro-environmental-behaviour">Social Factors Influencing Children’s Pro-Environmental Behaviour</h3>
 <p><strong>Statistical Consulting Project</strong> · Leiden University · 2025</p>
-<p>This study investigated how social factors influence pro-environmental behaviour (PEB) in children and adolescents aged 9 to 15 years. Participants (<em>N</em> = 164) from 13 classrooms across two schools completed an effort-based choice task across self, climate, and prosocial targets. We used generalized linear mixed-effects models to examine whether experimentally manipulated social norm messages affect effortful pro-environmental behaviour, and whether individual social susceptibility and classroom cohesion moderated these effects.</p>
+<p>This study investigated how social factors influence pro-environmental behaviour (PEB) in children and adolescents aged 9 to 15 years. Participants (<span class="math inline">\(N\)</span> = 164) from 13 classrooms across two schools completed an effort-based choice task across self, climate, and prosocial targets. We used generalized linear mixed-effects models to examine whether experimentally manipulated social norm messages affect effortful pro-environmental behaviour, and whether individual social susceptibility and classroom cohesion moderated these effects.</p>
 <p><a href="https://github.com/miihcr/Statistical_Consulting_Project_13" class="project-link"><i class="bi bi-github"></i> Code</a></p>
 </section>
 
