@@ -34,7 +34,7 @@ An interactive Shiny application that visualises immigration patterns across Eur
 ::: project-card
 ### Housing Price Statistics in Den Bosch {.project-title}
 
-**EMOS Statistical Production Systems** · Leiden University · 2025
+**European Master in Official Statistics (EMOS) -- Statistical Production Systems** · Statistics Netherlands (CBS) & Leiden University · 2025
 
 This project implements a reproducible statistical production pipeline for computing average housing prices in Den Bosch. Using synthetic data from the Dutch buildings register and property sales records, the pipeline follows a five-stage workflow from raw data ingestion through preprocessing, validation, and statistical processing to final output. Each stage is modular and documented, reflecting the production system standards taught in the European Master in Official Statistics (EMOS) programme.
 
