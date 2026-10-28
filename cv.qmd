@@ -24,6 +24,13 @@ Quantitative researcher working at the intersection of behavioural science and a
 [<i class="bi bi-file-earmark-text"></i> **Thesis:**](https://doi.org/10.5281/zenodo.22311324){.project-link} *Expanding the Job Demands-Resources Model: The Work Dynamics Model* (grade 8.5)
 :::
 
+## Publications & Presentations
+
+- Costa, M., de Jonge, E., & van Klingeren, F. (2026). Cross-domain embeddedness and generalised trust in the Netherlands. CBS Discussion Paper. *Manuscript in preparation.*
+- Costa, M. (2026, November). The Contexts That Bind Us: Networks, Multiplexity, and Embeddedness in Institutional Domains [Conference presentation]. ODISSEI Conference, Utrecht, The Netherlands.
+- Also presented at CBS Seminar (The Hague, 2026) and EMOS Symposium (The Hague, 2026).
+
+
 ## Research Experience
 
 ::: cv-entry
@@ -32,7 +39,6 @@ Quantitative researcher working at the intersection of behavioural science and a
 - Processed linked administrative register data across five institutional domains (work, education, household, family, and neighbourhood) within the CBS microdata environment, covering approximately 17 million Dutch residents.
 - Developed an adjusted multiplexity measure to account for administrative overlap between family and household registers, and linked the population-scale multilayer network to survey data ($N$ = 28,483) to investigate how the organisation of social ties across domains relates to generalised trust.
 - Built a reproducible R pipeline using `data.table`, `arrow`, and `DuckDB` for large-scale network computation.
-- Collaborating on a CBS discussion paper based on the thesis, with a research presentation scheduled for the ODISSEI Conference in November 2026.
 :::
 
 ::: cv-entry
