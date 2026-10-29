@@ -21,15 +21,14 @@ Quantitative researcher working at the intersection of behavioural science and a
 ::: cv-entry
 **BSc Psychology** — Maastricht University, [2021–2024]{.cv-date}
 
-[<i class="bi bi-file-earmark-text"></i> **Thesis:**](https://doi.org/10.5281/zenodo.22311324){.project-link} *Expanding the Job Demands-Resources Model: The Work Dynamics Model* (grade 8.5)
+[<i class="bi bi-file-earmark-text"></i> **Thesis:**](https://doi.org/10.5281/zenodo.22311324){.project-link} *Expanding the Job Demands-Resources Model: The Work Dynamics Model* (work-life balance; grade 8.5)
 :::
 
 ## Publications & Presentations
 
 - Costa, M., de Jonge, E., & van Klingeren, F. (2026). Cross-domain embeddedness and generalised trust in the Netherlands. CBS Discussion Paper. *Manuscript in preparation.*
-- Costa, M. (2026, November). The Contexts That Bind Us: Networks, Multiplexity, and Embeddedness in Institutional Domains [Conference presentation]. ODISSEI Conference, Utrecht, The Netherlands.
+- Costa, M. (2026, November). The Contexts That Bind Us: Networks, Multiplexity, and Embeddedness in Institutional Domains \[Conference presentation\]. ODISSEI Conference, Utrecht, The Netherlands. *Forthcoming.*
 - Also presented at CBS Seminar (The Hague, 2026) and EMOS Symposium (The Hague, 2026).
-
 
 ## Research Experience
 
