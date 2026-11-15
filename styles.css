@@ -87,6 +87,7 @@
 /* Reduce gap between heading and photo */
 .quarto-about-trestles {
   margin-top: -1.5rem;
+  padding-top: 1em !important;
 }
 
 /* Move About me heading higher */
@@ -95,3 +96,84 @@ h1#about-me {
   margin-top: 0;
 }
 
+/* Move only the text column higher */
+.quarto-about-trestles .about-contents {
+  margin-top: -5.5rem !important;
+}
+
+/* Align profile photo with navbar and page headings */
+@media (min-width: 992px) {
+  .quarto-about-trestles .about-image,
+  .quarto-about-trestles .about-links {
+    position: relative;
+    left: -1.75rem;
+  }
+}
+
+/* ── Typography ── */
+
+/* Main body text */
+body {
+  font-size: 0.95rem;
+  line-height: 1.6;
+}
+
+/* Page titles */
+h1 {
+  font-size: 2rem;
+}
+
+/* Section headings */
+h2 {
+  font-size: 1.6rem;
+}
+
+/* Project headings */
+h3 {
+  font-size: 1.3rem;
+}
+
+/* Navbar links */
+.navbar .nav-link {
+  font-size: 1rem;
+}
+
+/* Make About me text slightly more compact */
+.quarto-about-trestles .about-contents {
+  line-height: 1.5;
+}
+
+.quarto-about-trestles .about-contents p {
+  margin-bottom: 0.75rem;
+}
+
+/* ── Mobile responsiveness ── */
+
+@media (max-width: 767px) {
+
+  /* Reduce side padding on mobile */
+  :root {
+    --site-padding: 1.25rem;
+  }
+
+  /* Ensure content fits smaller screens */
+  #quarto-content {
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  /* Adjust page headings */
+  h1 {
+    font-size: 1.8rem;
+  }
+
+  /* Slightly smaller navbar title */
+  .navbar-brand {
+    font-size: 1.4rem !important;
+  }
+
+  /* Reset desktop text positioning */
+  .quarto-about-trestles .about-contents {
+    margin-top: 0 !important;
+  }
+}
