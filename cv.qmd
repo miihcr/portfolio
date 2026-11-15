@@ -6,7 +6,7 @@ toc: false
 [<i class="bi bi-download"></i> Download PDF](Milena_Costa_CV.pdf){.project-link}
 
 ::::::::::::: cv-header
-Quantitative researcher working at the intersection of behavioural science and administrative data.
+Applied researcher combining statistics and behavioural science.
 
 ## Education
 
@@ -88,7 +88,7 @@ Quantitative researcher working at the intersection of behavioural science and a
 
 ## Technical Skills
 
-**Statistical modelling:** Generalised linear models, multilevel modelling, longitudinal modelling, structural equation modelling, Bayesian methods, and statistical learning.
+**Statistical modelling:** Generalised linear models, multilevel and longitudinal models, structural equation modelling, Bayesian methods, and statistical and machine learning.
 
 **Measurement and research methodology:** Psychometrics, factor analysis, item response theory (IRT), differential item functioning (DIF), survey methodology, causal inference, missing data methods, and experimental design.
 

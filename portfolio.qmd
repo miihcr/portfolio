@@ -36,7 +36,7 @@ An interactive Shiny application that visualises immigration patterns across Eur
 
 **European Master in Official Statistics (EMOS) -- Statistical Production Systems** · Statistics Netherlands (CBS) & Leiden University · 2025
 
-This project implements a reproducible statistical production pipeline for computing average housing prices in Den Bosch. Using synthetic data from the Dutch buildings register and property sales records, the pipeline follows a five-stage workflow from raw data ingestion through preprocessing, validation, and statistical processing to final output. Each stage is modular and documented, reflecting the production system standards taught in the European Master in Official Statistics (EMOS) programme.
+This project implements a reproducible statistical production pipeline for computing average housing prices in Den Bosch. Using synthetic data from the Dutch buildings register and property sales records, the pipeline follows a five-stage workflow from raw data ingestion through preprocessing, validation, and statistical processing to final output. 
 
 [<i class="bi bi-github"></i> Code](https://github.com/miihcr/EMOS-production-systems){.project-link}
 :::
@@ -48,7 +48,7 @@ This project implements a reproducible statistical production pipeline for compu
 
 **Statistical Consulting Project** · Leiden University · 2025
 
-This study investigated how social factors influence pro-environmental behaviour (PEB) in children and adolescents aged 9 to 15 years. Participants ($N$ = 164) from 13 classrooms across two schools completed an effort-based choice task across self, climate, and prosocial targets. We used generalized linear mixed-effects models to examine whether experimentally manipulated social norm messages affect effortful pro-environmental behaviour, and whether individual social susceptibility and classroom cohesion moderated these effects.
+How do social factors influence pro-environmental behaviour in children? Participants ($N$ = 164) from 13 classrooms across two schools completed an effort-based choice task across self, climate, and prosocial targets. We used generalised linear mixed-effects models to test whether social norm messages influenced how much effort children put into pro-environmental choices, and whether this depended on their social susceptibility and classroom cohesion.
 
 [<i class="bi bi-github"></i> Code](https://github.com/miihcr/Statistical_Consulting_Project_13){.project-link}
 :::
