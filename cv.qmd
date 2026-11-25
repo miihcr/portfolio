@@ -29,7 +29,7 @@ Quantitative researcher interested in how social contexts shape people's lives, 
 ## Publications & Presentations
 
 - Costa, M., de Jonge, E., & van Klingeren, F. (2026). Cross-domain embeddedness and generalised trust in the Netherlands. CBS Discussion Paper. *Manuscript in preparation.*
-- Costa, M. (2026, November 24). *Cross-domain network embeddedness and generalised trust* [Conference presentation]. ODISSEI Conference, Utrecht, the Netherlands. [<i class="bi bi-file-earmark-text"></i> doi:10.5281/zenodo.24466230](https://doi.org/10.5281/zenodo.24466230){.project-link} 
+- Costa, M. (2026, November 24). *Cross-domain network embeddedness and generalised trust* \[Conference presentation\]. ODISSEI Conference, Utrecht, the Netherlands. [<i class="bi bi-file-earmark-text"></i> doi:10.5281/zenodo.24466230](https://doi.org/10.5281/zenodo.24466230){.project-link}
 - Also presented at the CBS Seminar (The Hague, 2026) and EMOS Symposium (The Hague, 2026).
 
 ## Research Experience
@@ -46,14 +46,14 @@ Quantitative researcher interested in how social contexts shape people's lives, 
 ::: cv-entry
 **Statistical Consulting Project** — Leiden University, [2025-2026]{.cv-date}
 
-- Applied multilevel GLMMs to assess how peer norms shaped children's pro-environmental effort choices in clustered classroom data.
+- Advised an external client on statistical methodology for clustered classroom data; applied multilevel GLMMs and identified ceiling effects in the task design.
 - Developed a size-adjusted network density measure of classroom cohesion from peer-nomination data.
 :::
 
 ::: cv-entry
 **Research Project** — Vrije Universiteit Amsterdam, [2023]{.cv-date}
 
-- Evaluated a brief self-report measure of well-being for workplace settings, examining its factor structure, reliability, and construct validity.
+- Adapted a self-control scale to the workplace context and evaluated its psychometric properties using factor analysis, reliability analysis, and multitrait-multimethod (MTMM) correlations.
 :::
 
 ::: cv-entry
@@ -98,7 +98,5 @@ Quantitative researcher interested in how social contexts shape people's lives, 
 
 **Programming and software:** R (e.g., lavaan, lme4, mirt, igraph, data.table, Shiny), Python, Git/GitHub, Quarto, LaTeX, SPSS, Excel.
 
-**Languages:**
-
-**Brazilian Portuguese:** Brazilian Portuguese (native), English (fluent), Dutch (B2+), Spanish (B1)
+**Languages:** Brazilian Portuguese (native), English (fluent), Dutch (B2+), Spanish (B1)
 :::::::::::::
