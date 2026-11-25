@@ -6,7 +6,9 @@ toc: false
 [<i class="bi bi-download"></i> Download PDF](Milena_Costa_CV.pdf){.project-link}
 
 ::::::::::::: cv-header
-Applied researcher combining statistics and behavioural science.
+Quantitative researcher interested in how social contexts shape people's lives, combining population-scale data with social science.
+
+**Research interests:** life course, intergenerational transmission, social mobility, inequality, social cohesion, social network analysis, measurement
 
 ## Education
 
@@ -27,37 +29,37 @@ Applied researcher combining statistics and behavioural science.
 ## Publications & Presentations
 
 - Costa, M., de Jonge, E., & van Klingeren, F. (2026). Cross-domain embeddedness and generalised trust in the Netherlands. CBS Discussion Paper. *Manuscript in preparation.*
-- Costa, M. (2026, November). The Contexts That Bind Us: Networks, Multiplexity, and Embeddedness in Institutional Domains \[Conference presentation\]. ODISSEI Conference, Utrecht, The Netherlands. *Forthcoming.*
-- Also presented at CBS Seminar (The Hague, 2026) and EMOS Symposium (The Hague, 2026).
+- Costa, M. (2026, November 24). *Cross-domain network embeddedness and generalised trust* [Conference presentation]. ODISSEI Conference, Utrecht, the Netherlands. [<i class="bi bi-file-earmark-text"></i> doi:10.5281/zenodo.24466230](https://doi.org/10.5281/zenodo.24466230){.project-link} 
+- Also presented at the CBS Seminar (The Hague, 2026) and EMOS Symposium (The Hague, 2026).
 
 ## Research Experience
 
 ::: cv-entry
 **Master's Thesis Intern** — Statistics Netherlands (CBS), [2026]{.cv-date}
 
-- Processed linked administrative register data across five institutional domains (work, education, household, family, and neighbourhood) within the CBS microdata environment, covering approximately 17 million Dutch residents.
-- Developed an adjusted multiplexity measure to account for administrative overlap between family and household registers, and linked the population-scale multilayer network to survey data ($N$ = 28,483) to investigate how the organisation of social ties across domains relates to generalised trust.
-- Built a reproducible R pipeline using `data.table`, `arrow`, and `DuckDB` for large-scale network computation.
+- Worked with the CBS Population Network, a whole-population multilayer network of the Netherlands (approximately 17 million residents), linking administrative register data across domains of work, education, household, family, and neighbourhood.
+- Developed an adjusted multiplexity measure to account for administrative overlap between family and household registers.
+- Linked the population-scale network to survey data ($N$ = 28,483) to investigate how the organisation of social ties across domains relates to generalised trust.
+- Built reproducible R pipelines using `data.table`, `arrow`, and `DuckDB` for large-scale network computation.
 :::
 
 ::: cv-entry
 **Statistical Consulting Project** — Leiden University, [2025-2026]{.cv-date}
 
-- Applied multilevel GLMMs to assess how peer norms shaped children's pro-environmental effort choices in clustered classroom data (*N* = 164, 13 classrooms).
+- Applied multilevel GLMMs to assess how peer norms shaped children's pro-environmental effort choices in clustered classroom data.
 - Developed a size-adjusted network density measure of classroom cohesion from peer-nomination data.
 :::
 
 ::: cv-entry
 **Research Project** — Vrije Universiteit Amsterdam, [2023]{.cv-date}
 
-- Contextualised and evaluated a brief self-report measure of well-being for workplace settings, examining its factor structure, reliability, and construct validity.
+- Evaluated a brief self-report measure of well-being for workplace settings, examining its factor structure, reliability, and construct validity.
 :::
 
 ::: cv-entry
 **Research Project** — Maastricht University, [2023]{.cv-date}
 
-- Designed and conducted a between-subjects experiment on mental-health stigma, including power analysis, ethical approval, and participant recruitment.
-- Exploratory analyses indicated lower stigma following a written narrative and lower anger following a video condition.
+- Designed and conducted a between-subjects experiment on the effect of narratives about mental illness on stigmatising attitudes.
 :::
 
 ## Professional Experience
@@ -83,12 +85,12 @@ Applied researcher combining statistics and behavioural science.
 ::: cv-entry
 **Au Pair and Volunteer** — Antwerp, Belgium, [2019–2021]{.cv-date}
 
-- Childcare work; volunteered in elderly care and assisted at a COVID-19 vaccination centre.
+- Provided childcare; volunteered in elderly care and assisted at a COVID-19 vaccination centre.
 :::
 
-## Technical Skills
+## SKILLS
 
-**Statistical modelling:** Generalised linear models, multilevel and longitudinal models, structural equation modelling, Bayesian methods, and statistical and machine learning.
+**Statistical modelling:** Generalised linear models, multilevel and longitudinal models, structural equation modelling, Bayesian methods, and statistical earning.
 
 **Measurement and research methodology:** Psychometrics, factor analysis, item response theory (IRT), differential item functioning (DIF), survey methodology, causal inference, missing data methods, and experimental design.
 
@@ -96,13 +98,7 @@ Applied researcher combining statistics and behavioural science.
 
 **Programming and software:** R (e.g., lavaan, lme4, mirt, igraph, data.table, Shiny), Python, Git/GitHub, Quarto, LaTeX, SPSS, Excel.
 
-## Languages
+**Languages:**
 
-**Portuguese:** Native
-
-**English:** Fluent
-
-**Dutch:** B2+ (working toward C1)
-
-**Spanish:** B1
+**Brazilian Portuguese:** Brazilian Portuguese (native), English (fluent), Dutch (B2+), Spanish (B1)
 :::::::::::::

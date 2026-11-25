@@ -19,13 +19,11 @@ about:
 # About me
 
 ::: {#about-content}
-Hi! I’m Milena, an applied researcher with a background in statistics and psychology. 
+Hi! I'm Milena, a quantitative researcher. I am interested in how the contexts people move through, from families and neighbourhoods to schools and labour markets, shape who they become, and how people navigate, reproduce, or break from those conditions. I want to approach these questions by combining complementary data sources, such as population-scale administrative and register data, longitudinal studies, and surveys.
 
-I studied psychology at Maastricht University and found myself most at home on the quantitative side, especially the challenge of measuring things we cannot directly observe, like trust or well-being. I then got a master's in Statistics and Data Science from Leiden University. For my master’s thesis at Statistics Netherlands (CBS), I worked with linked administrative registers covering the full Dutch population to investigate how people’s social ties across work, neighbourhood, school, and family relate to their trust in others, including strangers.
+I studied psychology at Maastricht University, where I became most interested in the quantitative side, and in how to measure what we cannot directly observe. I then got a master's in Statistics and Data Science from Leiden University. For my thesis at Statistics Netherlands (CBS), I examined how people's embeddedness across social domains relates to generalised trust, using a whole-population network of the Netherlands. The social questions inform what I measure, and what I can measure shapes which questions become answerable.
 
-
-I grew up in Brazil and moved to Belgium when I was eighteen. There, I spent two years working as an au pair caring for three young children, while studying Dutch at KU Leuven. Being part of their daily lives in a context so different from my own made me curious about how our surroundings shape who we become. 
-
+I grew up in Brazil and moved to Belgium when I was eighteen. There, I spent two years working as an au pair caring for three young children, while studying Dutch at KU Leuven. Being part of their daily lives in a context so different from my own made me curious about how our surroundings shape who we become.
 
 In my free time, you'll find me taking care of my tropical plants, working in the garden, and having deep discussions about the meaning of life. I love learning about new cultures, watching art house films, and going down rabbit holes about whatever has caught my attention lately. Whenever I get the chance, I also like to scuba dive.
 :::
